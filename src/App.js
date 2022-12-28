@@ -4,6 +4,7 @@ import UserList from './components/Users/UserList';
 
 
 function App() {
+  console.log("Prince")
   const[users,setUsers]=useState([]);
 
   const addUserHandler=(uName,uAge)=>{
